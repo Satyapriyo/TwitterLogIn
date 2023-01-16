@@ -17,13 +17,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Log in to Twitter /twitter</title>
   </head>
   <body>
     <main>
       <section id="login">
         <div>
-          <div class="back" onclick="toogleLogin()">❌</div>
+          <a href="https://twitter.com/"
+            ><div class="back" onclick="toogleLogin()">
+              <i class="fa-sharp fa-solid fa-xmark"></i></div
+          ></a>
+
           <div>
             <img
               class="twitter"
@@ -48,7 +56,7 @@
 
           <button id="next">forgot password</button> <br />
 
-          <p style="text-align: center; color: aliceblue">
+          <p class="lastLine" style="text-align: center; color: aliceblue">
             don't have an account
             <a href="#" style="color: rgb(21, 154, 255)">SignUp</a>
           </p>
